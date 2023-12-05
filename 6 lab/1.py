@@ -24,7 +24,6 @@ f_values = [1, 2, 4, 1]
 x_star = 1.5
 
 F = divided_difference(f_values, x_values)
-print(F)
 
 result = newton_polynomial(x_star, x_values, F)
 
